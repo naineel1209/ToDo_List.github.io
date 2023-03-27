@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="main">
+        <h1>TO DO LIST APP</h1>
+        <!-- INPUT SECTION -->
+        <section class="todo_input">
+            <form class="todo_form">
+                <input type="text" name="task" id="task_details">
+                <div class="category">
+                    <input type="radio" name="task" id="task1"><label for="task1">College</label>
+                    <input type="radio" name="task" id="task2"><label for="task2">Personal</label>
+                </div>
+                <input type="submit" value="Submit" id="submit">
+            </form>
+        </section>
+
+        <!-- GET LIST SECTION -->
+        <section class="todo_list">
+            <h1>TODO LIST</h1>
+            <ul>
+            </ul>
+        </section>
+    </div>
+
+
+
+    <script src="https://kit.fontawesome.com/d8ad7f3af4.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
